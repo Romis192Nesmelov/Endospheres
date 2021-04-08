@@ -78,7 +78,7 @@
 
 <div id="copyright-line">
     <div class="container">
-        <div class="copyright hidden-xs">{{ trans('content.copyright') }}</div>
+        <div class="copyright hidden-xs">{{ '© 2011-'.date('Y').trans('content.copyright') }}</div>
         <div class="pull-right">
             <img style="width: 100px; float: left; margin-right: 10px;" src="{{ asset('images/compress_logo.svg') }}" />
             <div class="soc-icon"><a href="https://vk.com/endospherestherapyrussia"><img src="{{ asset('images/vk.png') }}" /></a></div>
